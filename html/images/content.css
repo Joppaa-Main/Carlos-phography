@@ -1,0 +1,132 @@
+/* Any css that will affect the body of the page */
+
+
+* {
+  box-sizing: border-box;
+}
+
+.content {
+    padding-right: 20px ;
+    padding-left: 15px;
+
+     /* height: 780px ;  */
+
+    font-family: 'Didact Gothic', sans-serif;
+}
+.gallery {
+  padding-right: 20px ;
+  padding-left: 15px;
+  height: 880px ; 
+  margin-bottom: 50px;
+
+  font-family: 'Didact Gothic', sans-serif;
+}
+
+.text_div {
+    padding-left: 150px ;
+    padding-right: 10px ;
+    font-family: 'Didact Gothic', sans-serif;
+    padding-top: 150px;
+}
+.title_text{
+ font-size: 64px ;
+ font-weight: 900;
+ color:  azure;
+}
+.title_text2{
+    padding-left: 150px ;
+    font-size: 64px ;
+    font-weight: 700;
+    color: #8C52FF; 
+   }
+
+
+.sub_text {
+    font-size: 28px ;
+    color: azure;
+    font-weight: lighter;
+    letter-spacing: 8px;
+}
+
+
+.portifolio {
+    height: 500px ;
+    margin-right: 50px;
+    margin-left: 50px;
+    text-align: center;
+}
+
+.column {
+    float: left;
+    width: 33.33%;
+    padding: 10px;
+    height: 500px;
+    align-items: center;
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  .column img {
+     
+    width: 100%;
+    height: 100%;
+    display: block;
+    object-fit: contain;
+    /* margin: auto; */
+
+  }
+ .column h2 {
+
+        bottom: 250px; 
+        color: #f1f1f1; 
+        width: 100%;
+        transition: .5s ease;
+        color: white;
+        font-size: 20px;
+        position: relative;
+        text-align: center;
+      }
+
+
+
+.columngrid img {
+    
+    width: 100%;
+    height: 100%;
+    object-fit : cover;
+    display: block;
+    
+
+
+  }
+
+  .grid-container {
+    display: grid;
+    grid-template-columns: repeat(2, auto);
+    gap: 20px;
+    margin-inline: auto;
+    padding-bottom: 1fr;
+  
+  }
+
+div.outer {
+  height: 100%;
+  width: 100%;
+  /* Used overflow to create scroll */
+  overflow: auto;
+}
+
+div.inner {
+  position: relative;
+  height: 100%;
+  width: 100%;
+}
+
+
+
